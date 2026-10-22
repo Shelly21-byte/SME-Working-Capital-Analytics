@@ -88,9 +88,9 @@ FROM sme_working_capital.expenses_payables;
 SELECT COUNT(*) AS total_expenses
 FROM sme_working_capital.expenses_payables;
 
-DELETE FROM sme_working_capital.expenses_payables;
+-- DELETE FROM sme_working_capital.expenses_payables;
 
-TRUNCATE TABLE sme_working_capital.expenses_payables;
+-- TRUNCATE TABLE sme_working_capital.expenses_payables;
 
 SELECT COUNT(*) AS total_expenses
 FROM sme_working_capital.expenses_payables;
