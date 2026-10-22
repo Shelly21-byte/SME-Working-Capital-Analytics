@@ -1,7 +1,7 @@
 
 USE sme_working_capital;
 LOAD DATA LOCAL INFILE
-'C:/Users/shell/Downloads/SME-Working-Capital-Analytics/DATA/invoices.csv'
+'C:/path/to/SME-Working-Capital-Analytics/DATA/invoices.csv'
 INTO TABLE invoices_staging
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
