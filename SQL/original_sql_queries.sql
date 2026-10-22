@@ -118,7 +118,7 @@ FROM sme_working_capital.expenses_payables;
 SHOW GLOBAL VARIABLES LIKE 'local_infile';
 SET GLOBAL local_infile = ON;
 
-LOAD DATA LOCAL INFILE 'C:/Users/shell/Downloads/SME-Working-Capital-Analytics/DATA/expenses_payables_cleaned.csv'
+LOAD DATA LOCAL INFILE 'C:/path/to/SME-Working-Capital-Analytics/DATA/expenses_payables_cleaned.csv'
 INTO TABLE sme_working_capital.expenses_payables
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
